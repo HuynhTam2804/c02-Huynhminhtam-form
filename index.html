@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tạo Form</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <form action="">
+        <fieldset>
+           <p>Thông tin cơ bản</p>
+            <label for="name">Họ Và Tên </label>
+            <input required type="text" id="name"><br>
+            <label for="dateborn">Ngày Sinh</label>
+            <input required type="date" name="dob" id="dateborn" ><br>
+            Giới tính 
+            <input type="radio" name="gender" value="Male" id="Male"> 
+            <label for="Male">Male</label>
+            <input type="radio" name="gender" value="Female " id="Female">
+            <label for="Female">Female</label>
+            <input type="radio" name="gender" value="Other" id="Other">
+            <label for="Other">Other</label><br>
+            Tổ hợp xét tuyển <br>
+            <input type="checkbox" name="subject" value="Math">Toán <br>
+            <input type="checkbox" name="subject" value="Physical">Lý <br>
+            <input type="checkbox" name="subject" value="Chemistry">Hóa<br>
+            <input type="checkbox" name="subject"value="English">AnhVăn<br>
+        </fieldset>
+
+        <fieldset>
+            <p>Thông tin liên lạc</p>
+            <label for="email">Email</label>
+            <input required type="email" name="email" id="email"><br>
+            <label for="Phone">Số điện thoại</label>
+            <input required type="text" name="phonenumber" id="Phone"><br>
+            <button>Submit</button>
+        </fieldset>
+    </form>
+</body>
+</html>
